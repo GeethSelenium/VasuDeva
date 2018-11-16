@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Getha]">
+  <test name="Sample(failed)">
+    <classes>
+      <class name="com.vasu.testng.AnnotationTest">
+        <methods>
+          <include name="before"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- com.vasu.testng.AnnotationTest -->
+      <class name="com.vasu.testng.BeforeTestAfterTest">
+        <methods>
+          <include name="appLogin"/>
+          <include name="appLaunch"/>
+          <include name="appClose"/>
+        </methods>
+      </class> <!-- com.vasu.testng.BeforeTestAfterTest -->
+    </classes>
+  </test> <!-- Sample(failed) -->
+</suite> <!-- Failed suite [Getha] -->

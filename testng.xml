@@ -1,0 +1,18 @@
+
+<suite name="Getha">
+  <test name="Sample">
+    <classes>
+      <class name="com.vasu.testng.AdminLoginTest"/>
+      <class name="com.vasu.testng.SampleTestNgTest"/>
+      <class name="com.vasu.testng.MultipleTestNgTest"/>
+      <class name="com.vasu.testng.AnnotationTest"/>
+      <class name="com.vasu.testng.BeforeTestAfterTest"/>
+      <class name="com.vasu.testng.ValidationTest"/>
+      
+   
+      
+    </classes>
+  </test> 
+</suite>
+
+

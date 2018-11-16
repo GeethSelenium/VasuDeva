@@ -1,0 +1,12 @@
+
+<suite name="ORHM">
+  <test name="Smoke">
+    <classes>
+      <class name="com.vasu.testng.EmpRegTest"/>
+      <class name="com.vasu.testng.EmpListTest"/>
+     
+    </classes>
+  </test> 
+</suite>
+
+

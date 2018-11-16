@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ORHM]">
+  <test name="Smoke(failed)">
+    <classes>
+      <class name="com.vasu.testng.EmpRegTest">
+        <methods>
+          <include name="appLogout"/>
+          <include name="appLogin"/>
+          <include name="appClose"/>
+          <include name="appLaunch"/>
+        </methods>
+      </class> <!-- com.vasu.testng.EmpRegTest -->
+      <class name="com.vasu.testng.EmpListTest">
+        <methods>
+          <include name="empList"/>
+        </methods>
+      </class> <!-- com.vasu.testng.EmpListTest -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [ORHM] -->
